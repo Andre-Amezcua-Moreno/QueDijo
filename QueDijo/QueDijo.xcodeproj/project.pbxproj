@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01279AD82399D3C600150652 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01279AD72399D3C600150652 /* GoogleService-Info.plist */; };
+		2481B63F3EDBF23FE165AC4E /* Pods_QueDijoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D499E5C4BAB48C369BED4A5C /* Pods_QueDijoTests.framework */; };
 		6587D99E23988A160082064E /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6587D99D23988A160082064E /* HomeTableViewController.swift */; };
 		6587D9A22399D7DB0082064E /* SpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6587D9A12399D7DB0082064E /* SpeechViewController.swift */; };
 		6587D9A42399D8420082064E /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6587D9A32399D8420082064E /* PictureViewController.swift */; };
@@ -19,6 +21,8 @@
 		65FE498D239733700002F4D5 /* QueDijoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FE498C239733700002F4D5 /* QueDijoTests.swift */; };
 		65FE4998239733700002F4D5 /* QueDijoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FE4997239733700002F4D5 /* QueDijoUITests.swift */; };
 		65FE49A82397454C0002F4D5 /* FormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FE49A72397454C0002F4D5 /* FormTextField.swift */; };
+		89D204F6F7D9BC5A5F2C0015 /* Pods_QueDijo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA6851D9493FAC3208FAB4E /* Pods_QueDijo.framework */; };
+		B4367FDA3A25CFD40B1F8082 /* Pods_QueDijoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0B705BF69B03DC41AD44BD /* Pods_QueDijoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01279AD72399D3C600150652 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1C0B705BF69B03DC41AD44BD /* Pods_QueDijoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QueDijoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29CD795B406D8EFDD2DB7B89 /* Pods-QueDijoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueDijoUITests.debug.xcconfig"; path = "Target Support Files/Pods-QueDijoUITests/Pods-QueDijoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6038BE0CB57C619AA659A841 /* Pods-QueDijoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueDijoTests.debug.xcconfig"; path = "Target Support Files/Pods-QueDijoTests/Pods-QueDijoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6587D99D23988A160082064E /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		6587D9A12399D7DB0082064E /* SpeechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechViewController.swift; sourceTree = "<group>"; };
 		6587D9A32399D8420082064E /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +65,12 @@
 		65FE4997239733700002F4D5 /* QueDijoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueDijoUITests.swift; sourceTree = "<group>"; };
 		65FE4999239733700002F4D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65FE49A72397454C0002F4D5 /* FormTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextField.swift; sourceTree = "<group>"; };
+		A1070AB6CFD441CE7E9C8170 /* Pods-QueDijoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueDijoUITests.release.xcconfig"; path = "Target Support Files/Pods-QueDijoUITests/Pods-QueDijoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AFA6851D9493FAC3208FAB4E /* Pods_QueDijo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QueDijo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0CD682121D7F7015A1B0B0 /* Pods-QueDijoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueDijoTests.release.xcconfig"; path = "Target Support Files/Pods-QueDijoTests/Pods-QueDijoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D2B77D8A7633373F044333F9 /* Pods-QueDijo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueDijo.release.xcconfig"; path = "Target Support Files/Pods-QueDijo/Pods-QueDijo.release.xcconfig"; sourceTree = "<group>"; };
+		D499E5C4BAB48C369BED4A5C /* Pods_QueDijoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QueDijoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4FBAB865F5A78D401CF431 /* Pods-QueDijo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueDijo.debug.xcconfig"; path = "Target Support Files/Pods-QueDijo/Pods-QueDijo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89D204F6F7D9BC5A5F2C0015 /* Pods_QueDijo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2481B63F3EDBF23FE165AC4E /* Pods_QueDijoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +94,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4367FDA3A25CFD40B1F8082 /* Pods_QueDijoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25CC0B41C805335001850270 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA4FBAB865F5A78D401CF431 /* Pods-QueDijo.debug.xcconfig */,
+				D2B77D8A7633373F044333F9 /* Pods-QueDijo.release.xcconfig */,
+				6038BE0CB57C619AA659A841 /* Pods-QueDijoTests.debug.xcconfig */,
+				CC0CD682121D7F7015A1B0B0 /* Pods-QueDijoTests.release.xcconfig */,
+				29CD795B406D8EFDD2DB7B89 /* Pods-QueDijoUITests.debug.xcconfig */,
+				A1070AB6CFD441CE7E9C8170 /* Pods-QueDijoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		65FE496B2397336E0002F4D5 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +122,8 @@
 				65FE498B239733700002F4D5 /* QueDijoTests */,
 				65FE4996239733700002F4D5 /* QueDijoUITests */,
 				65FE49752397336E0002F4D5 /* Products */,
+				25CC0B41C805335001850270 /* Pods */,
+				DCFADCF40BBAA8AB895843C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				65FE49772397336E0002F4D5 /* AppDelegate.swift */,
+				01279AD72399D3C600150652 /* GoogleService-Info.plist */,
 				65FE49792397336E0002F4D5 /* ViewController.swift */,
 				65FE497B2397336E0002F4D5 /* Main.storyboard */,
 				65FE497E239733700002F4D5 /* Assets.xcassets */,
@@ -140,6 +174,16 @@
 			path = QueDijoUITests;
 			sourceTree = "<group>";
 		};
+		DCFADCF40BBAA8AB895843C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFA6851D9493FAC3208FAB4E /* Pods_QueDijo.framework */,
+				D499E5C4BAB48C369BED4A5C /* Pods_QueDijoTests.framework */,
+				1C0B705BF69B03DC41AD44BD /* Pods_QueDijoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65FE499C239733700002F4D5 /* Build configuration list for PBXNativeTarget "QueDijo" */;
 			buildPhases = (
+				C6A4DB4026EAEC9B1917B9B0 /* [CP] Check Pods Manifest.lock */,
 				65FE49702397336E0002F4D5 /* Sources */,
 				65FE49712397336E0002F4D5 /* Frameworks */,
 				65FE49722397336E0002F4D5 /* Resources */,
+				60E5EB5F3D1DD2E01E90C84A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65FE499F239733700002F4D5 /* Build configuration list for PBXNativeTarget "QueDijoTests" */;
 			buildPhases = (
+				746943BC91F0B4383D20D6C7 /* [CP] Check Pods Manifest.lock */,
 				65FE4984239733700002F4D5 /* Sources */,
 				65FE4985239733700002F4D5 /* Frameworks */,
 				65FE4986239733700002F4D5 /* Resources */,
@@ -182,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65FE49A2239733700002F4D5 /* Build configuration list for PBXNativeTarget "QueDijoUITests" */;
 			buildPhases = (
+				1ED96C11EEFA743A0F2CC5CF /* [CP] Check Pods Manifest.lock */,
 				65FE498F239733700002F4D5 /* Sources */,
 				65FE4990239733700002F4D5 /* Frameworks */,
 				65FE4991239733700002F4D5 /* Resources */,
@@ -245,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65FE4982239733700002F4D5 /* LaunchScreen.storyboard in Resources */,
+				01279AD82399D3C600150652 /* GoogleService-Info.plist in Resources */,
 				65FE497F239733700002F4D5 /* Assets.xcassets in Resources */,
 				65FE497D2397336E0002F4D5 /* Main.storyboard in Resources */,
 			);
@@ -265,6 +314,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ED96C11EEFA743A0F2CC5CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QueDijoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60E5EB5F3D1DD2E01E90C84A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QueDijo/Pods-QueDijo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QueDijo/Pods-QueDijo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QueDijo/Pods-QueDijo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		746943BC91F0B4383D20D6C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QueDijoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6A4DB4026EAEC9B1917B9B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QueDijo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		65FE49702397336E0002F4D5 /* Sources */ = {
@@ -448,6 +583,7 @@
 		};
 		65FE499D239733700002F4D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA4FBAB865F5A78D401CF431 /* Pods-QueDijo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -465,6 +601,7 @@
 		};
 		65FE499E239733700002F4D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2B77D8A7633373F044333F9 /* Pods-QueDijo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +619,7 @@
 		};
 		65FE49A0239733700002F4D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6038BE0CB57C619AA659A841 /* Pods-QueDijoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +640,7 @@
 		};
 		65FE49A1239733700002F4D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC0CD682121D7F7015A1B0B0 /* Pods-QueDijoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -522,6 +661,7 @@
 		};
 		65FE49A3239733700002F4D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29CD795B406D8EFDD2DB7B89 /* Pods-QueDijoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +681,7 @@
 		};
 		65FE49A4239733700002F4D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1070AB6CFD441CE7E9C8170 /* Pods-QueDijoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
