@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import FirebaseMLVision
+
 
 class ViewController: UIViewController {
 

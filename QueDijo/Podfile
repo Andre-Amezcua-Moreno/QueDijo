@@ -6,6 +6,15 @@ target 'QueDijo' do
   use_frameworks!
 
   # Pods for QueDijo
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod 'Firebase/Auth'
+  pod 'Firebase/MLNLTranslate'
+  pod 'Firebase/MLVision'
+  # If using an on-device API:
+  pod 'Firebase/MLVisionTextModel'
 
   target 'QueDijoTests' do
     inherit! :search_paths
