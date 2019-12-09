@@ -6,7 +6,11 @@
 //  Copyright © 2019 Andrea Amezcua Moreno. All rights reserved.
 //
 
+
 import UIKit
+import Firebase
+import FirebaseStorage
+
 
 class PictureViewController: UIViewController {
 

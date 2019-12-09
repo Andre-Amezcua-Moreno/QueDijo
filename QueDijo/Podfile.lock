@@ -1,11 +1,33 @@
 PODS:
   - Firebase/Analytics (6.13.0):
     - Firebase/Core
+  - Firebase/Auth (6.13.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 6.4.0)
   - Firebase/Core (6.13.0):
     - Firebase/CoreOnly
     - FirebaseAnalytics (= 6.1.6)
   - Firebase/CoreOnly (6.13.0):
     - FirebaseCore (= 6.4.0)
+  - Firebase/Database (6.13.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (~> 6.1.2)
+  - Firebase/MLNLTranslate (6.13.0):
+    - Firebase/CoreOnly
+    - FirebaseMLNLTranslate (~> 0.17.0)
+  - Firebase/MLVision (6.13.0):
+    - Firebase/CoreOnly
+    - FirebaseMLVision (~> 0.19.0)
+  - Firebase/MLVisionTextModel (6.13.0):
+    - Firebase/CoreOnly
+    - FirebaseMLVisionTextModel (~> 0.19.0)
+  - Firebase/Storage (6.13.0):
+    - Firebase/CoreOnly
+    - FirebaseStorage (~> 3.4.2)
+  - FirebaseABTesting (3.1.2):
+    - FirebaseAnalyticsInterop (~> 1.3)
+    - FirebaseCore (~> 6.1)
+    - Protobuf (>= 3.9.2, ~> 3.9)
   - FirebaseAnalytics (6.1.6):
     - FirebaseCore (~> 6.4)
     - FirebaseInstanceID (~> 4.2)
@@ -15,6 +37,14 @@ PODS:
     - GoogleUtilities/Network (~> 6.0)
     - "GoogleUtilities/NSData+zlib (~> 6.0)"
     - nanopb (= 0.3.9011)
+  - FirebaseAnalyticsInterop (1.4.0)
+  - FirebaseAuth (6.4.0):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.2)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseAuthInterop (1.0.0)
   - FirebaseCore (6.4.0):
     - FirebaseCoreDiagnostics (~> 1.0)
     - FirebaseCoreDiagnosticsInterop (~> 1.0)
@@ -27,10 +57,63 @@ PODS:
     - GoogleUtilities/Logger (~> 6.2)
     - nanopb (~> 0.3.901)
   - FirebaseCoreDiagnosticsInterop (1.1.0)
+  - FirebaseDatabase (6.1.2):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.0)
+    - leveldb-library (~> 1.22)
   - FirebaseInstanceID (4.2.7):
     - FirebaseCore (~> 6.0)
     - GoogleUtilities/Environment (~> 6.0)
     - GoogleUtilities/UserDefaults (~> 6.0)
+  - FirebaseMLCommon (0.19.0):
+    - FirebaseCore (~> 6.3)
+    - FirebaseInstanceID (~> 4.2)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GoogleUtilities/UserDefaults (~> 6.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.5)
+  - FirebaseMLNaturalLanguage (0.17.0):
+    - FirebaseCore (~> 6.3)
+    - FirebaseMLCommon (~> 0.19)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.5)
+  - FirebaseMLNLTranslate (0.17.0):
+    - FirebaseCore (~> 6.3)
+    - FirebaseMLNaturalLanguage (~> 0.17)
+    - FirebaseRemoteConfig (~> 4.4)
+  - FirebaseMLVision (0.19.0):
+    - FirebaseCore (~> 6.3)
+    - FirebaseMLCommon (~> 0.19)
+    - GoogleAPIClientForREST/Core (~> 1.3)
+    - GoogleAPIClientForREST/Vision (~> 1.3)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.5)
+  - FirebaseMLVisionTextModel (0.19.0):
+    - FirebaseMLVision (~> 0.19)
+  - FirebaseRemoteConfig (4.4.5):
+    - FirebaseABTesting (~> 3.1)
+    - FirebaseAnalyticsInterop (~> 1.4)
+    - FirebaseCore (~> 6.2)
+    - FirebaseInstanceID (~> 4.2)
+    - GoogleUtilities/Environment (~> 6.2)
+    - "GoogleUtilities/NSData+zlib (~> 6.2)"
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - FirebaseStorage (3.4.2):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleAPIClientForREST/Core (1.3.10):
+    - GTMSessionFetcher (>= 1.1.7)
+  - GoogleAPIClientForREST/Vision (1.3.10):
+    - GoogleAPIClientForREST/Core
+    - GTMSessionFetcher (>= 1.1.7)
   - GoogleAppMeasurement (6.1.6):
     - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
     - GoogleUtilities/MethodSwizzler (~> 6.0)
@@ -41,6 +124,18 @@ PODS:
   - GoogleDataTransportCCTSupport (1.2.2):
     - GoogleDataTransport (~> 3.2)
     - nanopb (~> 0.3.901)
+  - GoogleToolboxForMac/DebugUtils (2.2.2):
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+  - GoogleToolboxForMac/Defines (2.2.2)
+  - GoogleToolboxForMac/Logger (2.2.2):
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+  - "GoogleToolboxForMac/NSData+zlib (2.2.2)":
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.2)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.2)
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.2)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.2)"
   - GoogleUtilities/AppDelegateSwizzler (6.3.2):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
@@ -59,17 +154,31 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (6.3.2):
     - GoogleUtilities/Logger
+  - GTMSessionFetcher (1.3.0):
+    - GTMSessionFetcher/Full (= 1.3.0)
+  - GTMSessionFetcher/Core (1.3.0)
+  - GTMSessionFetcher/Full (1.3.0):
+    - GTMSessionFetcher/Core (= 1.3.0)
+  - leveldb-library (1.22)
   - nanopb (0.3.9011):
     - nanopb/decode (= 0.3.9011)
     - nanopb/encode (= 0.3.9011)
   - nanopb/decode (0.3.9011)
   - nanopb/encode (0.3.9011)
+  - Protobuf (3.11.0)
 
 DEPENDENCIES:
   - Firebase/Analytics
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/MLNLTranslate
+  - Firebase/MLVision
+  - Firebase/MLVisionTextModel
+  - Firebase/Storage
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Firebase
     - FirebaseAnalytics
     - FirebaseCore
@@ -81,20 +190,55 @@ SPEC REPOS:
     - GoogleDataTransportCCTSupport
     - GoogleUtilities
     - nanopb
+  trunk:
+    - FirebaseABTesting
+    - FirebaseAnalyticsInterop
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseDatabase
+    - FirebaseMLCommon
+    - FirebaseMLNaturalLanguage
+    - FirebaseMLNLTranslate
+    - FirebaseMLVision
+    - FirebaseMLVisionTextModel
+    - FirebaseRemoteConfig
+    - FirebaseStorage
+    - GoogleAPIClientForREST
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - leveldb-library
+    - Protobuf
 
 SPEC CHECKSUMS:
   Firebase: 458d109512200d1aca2e1b9b6cf7d68a869a4a46
+  FirebaseABTesting: 0d10f3cdc3fa00f3f175b5b56c1003c8e888299f
   FirebaseAnalytics: 45f36d9c429fc91d206283900ab75390cd05ee8a
+  FirebaseAnalyticsInterop: d48b6ab67bcf016a05e55b71fc39c61c0cb6b7f3
+  FirebaseAuth: 7d0f84873926f6648bbd1391a318dfb1a26b5e4f
+  FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
   FirebaseCore: 307ea2508df730c5865334e41965bd9ea344b0e5
   FirebaseCoreDiagnostics: 511f4f3ed7d440bb69127e8b97c2bc8befae639e
   FirebaseCoreDiagnosticsInterop: e9b1b023157e3a2fc6418b5cb601e79b9af7b3a0
+  FirebaseDatabase: 963515d232ded06f36f6ce830507c94551866170
   FirebaseInstanceID: ebd2ea79ee38db0cb5f5167b17a0d387e1cc7b6e
+  FirebaseMLCommon: 074a67e05122b1c9f6401a4e33b2cea3b4efd224
+  FirebaseMLNaturalLanguage: 9d38301a41b1201d248588bf66937b975391e8f4
+  FirebaseMLNLTranslate: ed248c2c2eaf3bc2450505e3e0c4c8487c7879fd
+  FirebaseMLVision: 7a456009787690e3b53436092ae9b635563de8f3
+  FirebaseMLVisionTextModel: c264caa3100ca804580bf2a7c1cb9ff390d1f471
+  FirebaseRemoteConfig: 6ad68503c04701b8d9d709240711bc0bf6edaf94
+  FirebaseStorage: 046abe9ac4e2a1a0e47d72f536490ffa50896632
+  GoogleAPIClientForREST: 4acfffd77f1c3c8741b6be9eaed0e603278efbde
   GoogleAppMeasurement: dfe55efa543e899d906309eaaac6ca26d249862f
   GoogleDataTransport: 8e9b210c97d55fbff306cc5468ff91b9cb32dcf5
   GoogleDataTransportCCTSupport: ef79a4728b864946a8aafdbab770d5294faf3b5f
+  GoogleToolboxForMac: 800648f8b3127618c1b59c7f97684427630c5ea3
   GoogleUtilities: 547a86735c6f0ee30ad17e94df4fc21f616b71cb
+  GTMSessionFetcher: 43b8b64263023d4f32caa0b40f4c8bfa3c5f36d8
+  leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
+  Protobuf: 394b2bf29ec303f4325e3ee4892c09e675647152
 
-PODFILE CHECKSUM: e3e7d4c733956db04050b64e0b2f2c9b037fb73e
+PODFILE CHECKSUM: 0d691448200b1db6bb1f3271c7fa793eb0a1fc5e
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.8.4

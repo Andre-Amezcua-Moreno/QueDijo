@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01279AD82399D3C600150652 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01279AD72399D3C600150652 /* GoogleService-Info.plist */; };
 		2481B63F3EDBF23FE165AC4E /* Pods_QueDijoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D499E5C4BAB48C369BED4A5C /* Pods_QueDijoTests.framework */; };
 		2567A39F239CCBBA00352677 /* UIUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2567A39E239CCBBA00352677 /* UIUtilities.swift */; };
+		2567A3A1239CD0EF00352677 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2567A3A0239CD0EF00352677 /* GoogleService-Info.plist */; };
 		6587D99E23988A160082064E /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6587D99D23988A160082064E /* HomeTableViewController.swift */; };
 		6587D9A22399D7DB0082064E /* SpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6587D9A12399D7DB0082064E /* SpeechViewController.swift */; };
 		6587D9A42399D8420082064E /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6587D9A32399D8420082064E /* PictureViewController.swift */; };
@@ -44,9 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01279AD72399D3C600150652 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1C0B705BF69B03DC41AD44BD /* Pods_QueDijoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QueDijoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2567A39E239CCBBA00352677 /* UIUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUtilities.swift; sourceTree = "<group>"; };
+		2567A3A0239CD0EF00352677 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		29CD795B406D8EFDD2DB7B89 /* Pods-QueDijoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueDijoUITests.debug.xcconfig"; path = "Target Support Files/Pods-QueDijoUITests/Pods-QueDijoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6038BE0CB57C619AA659A841 /* Pods-QueDijoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueDijoTests.debug.xcconfig"; path = "Target Support Files/Pods-QueDijoTests/Pods-QueDijoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6587D99D23988A160082064E /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
@@ -142,12 +142,12 @@
 			isa = PBXGroup;
 			children = (
 				65FE49772397336E0002F4D5 /* AppDelegate.swift */,
-				01279AD72399D3C600150652 /* GoogleService-Info.plist */,
 				65FE49792397336E0002F4D5 /* ViewController.swift */,
 				65FE497B2397336E0002F4D5 /* Main.storyboard */,
 				65FE497E239733700002F4D5 /* Assets.xcassets */,
 				65FE4980239733700002F4D5 /* LaunchScreen.storyboard */,
 				65FE4983239733700002F4D5 /* Info.plist */,
+				2567A3A0239CD0EF00352677 /* GoogleService-Info.plist */,
 				65FE49A72397454C0002F4D5 /* FormTextField.swift */,
 				6587D99D23988A160082064E /* HomeTableViewController.swift */,
 				6587D9A12399D7DB0082064E /* SpeechViewController.swift */,
@@ -198,6 +198,7 @@
 				65FE49712397336E0002F4D5 /* Frameworks */,
 				65FE49722397336E0002F4D5 /* Resources */,
 				60E5EB5F3D1DD2E01E90C84A /* [CP] Embed Pods Frameworks */,
+				8DFF9E38A51B9E164F3AC1AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -295,7 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65FE4982239733700002F4D5 /* LaunchScreen.storyboard in Resources */,
-				01279AD82399D3C600150652 /* GoogleService-Info.plist in Resources */,
+				2567A3A1239CD0EF00352677 /* GoogleService-Info.plist in Resources */,
 				65FE497F239733700002F4D5 /* Assets.xcassets in Resources */,
 				65FE497D2397336E0002F4D5 /* Main.storyboard in Resources */,
 			);
@@ -377,6 +378,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DFF9E38A51B9E164F3AC1AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QueDijo/Pods-QueDijo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QueDijo/Pods-QueDijo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QueDijo/Pods-QueDijo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C6A4DB4026EAEC9B1917B9B0 /* [CP] Check Pods Manifest.lock */ = {
