@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2481B63F3EDBF23FE165AC4E /* Pods_QueDijoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D499E5C4BAB48C369BED4A5C /* Pods_QueDijoTests.framework */; };
 		2567A39F239CCBBA00352677 /* UIUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2567A39E239CCBBA00352677 /* UIUtilities.swift */; };
-		2567A3A1239CD0EF00352677 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2567A3A0239CD0EF00352677 /* GoogleService-Info.plist */; };
+		257B2346239DF42D00B243B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 257B2345239DF42D00B243B2 /* GoogleService-Info.plist */; };
 		6587D99E23988A160082064E /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6587D99D23988A160082064E /* HomeTableViewController.swift */; };
 		6587D9A22399D7DB0082064E /* SpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6587D9A12399D7DB0082064E /* SpeechViewController.swift */; };
 		6587D9A42399D8420082064E /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6587D9A32399D8420082064E /* PictureViewController.swift */; };
@@ -46,7 +46,7 @@
 /* Begin PBXFileReference section */
 		1C0B705BF69B03DC41AD44BD /* Pods_QueDijoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QueDijoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2567A39E239CCBBA00352677 /* UIUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUtilities.swift; sourceTree = "<group>"; };
-		2567A3A0239CD0EF00352677 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		257B2345239DF42D00B243B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		29CD795B406D8EFDD2DB7B89 /* Pods-QueDijoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueDijoUITests.debug.xcconfig"; path = "Target Support Files/Pods-QueDijoUITests/Pods-QueDijoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6038BE0CB57C619AA659A841 /* Pods-QueDijoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QueDijoTests.debug.xcconfig"; path = "Target Support Files/Pods-QueDijoTests/Pods-QueDijoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6587D99D23988A160082064E /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
@@ -147,7 +147,7 @@
 				65FE497E239733700002F4D5 /* Assets.xcassets */,
 				65FE4980239733700002F4D5 /* LaunchScreen.storyboard */,
 				65FE4983239733700002F4D5 /* Info.plist */,
-				2567A3A0239CD0EF00352677 /* GoogleService-Info.plist */,
+				257B2345239DF42D00B243B2 /* GoogleService-Info.plist */,
 				65FE49A72397454C0002F4D5 /* FormTextField.swift */,
 				6587D99D23988A160082064E /* HomeTableViewController.swift */,
 				6587D9A12399D7DB0082064E /* SpeechViewController.swift */,
@@ -296,7 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65FE4982239733700002F4D5 /* LaunchScreen.storyboard in Resources */,
-				2567A3A1239CD0EF00352677 /* GoogleService-Info.plist in Resources */,
+				257B2346239DF42D00B243B2 /* GoogleService-Info.plist in Resources */,
 				65FE497F239733700002F4D5 /* Assets.xcassets in Resources */,
 				65FE497D2397336E0002F4D5 /* Main.storyboard in Resources */,
 			);
@@ -608,6 +608,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJSDZGZT97;
 				INFOPLIST_FILE = QueDijo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -626,6 +627,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJSDZGZT97;
 				INFOPLIST_FILE = QueDijo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

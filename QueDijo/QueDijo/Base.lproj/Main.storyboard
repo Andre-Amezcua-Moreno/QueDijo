@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NP1-ya-8LS">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NP1-ya-8LS">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -45,14 +42,12 @@
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F3J-37-v0w" customClass="FormTextField" customModule="QueDijo" customModuleProvider="target">
                                 <rect key="frame" x="37" y="376" width="295" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q3q-ZG-ZLy">
                                 <rect key="frame" x="37" y="330" width="295" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -76,14 +71,12 @@
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uRv-bR-91Y" customClass="FormTextField" customModule="QueDijo" customModuleProvider="target">
                                 <rect key="frame" x="37" y="318" width="295" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Uo9-OK-Sm8" customClass="FormTextField" customModule="QueDijo" customModuleProvider="target">
                                 <rect key="frame" x="37" y="368" width="295" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <userDefinedRuntimeAttributes>
@@ -131,7 +124,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="o7o-YG-WRT">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="28" width="375" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="o7o-YG-WRT" id="SlE-Ui-Jr7">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -150,7 +143,7 @@
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="pictureTranslator:" destination="Lll-vk-Mgi" id="piy-Cv-PfZ"/>
-                                    <segue destination="PVS-4T-jo9" kind="presentation" id="vFe-om-DYt"/>
+                                    <segue destination="PVS-4T-jo9" kind="show" id="F95-L4-aTQ"/>
                                 </connections>
                             </barButtonItem>
                             <barButtonItem title="RealTimeTranslator" image="camera-icon" id="NQK-kO-buU">
@@ -179,7 +172,7 @@
             <objects>
                 <viewController id="Vef-6p-JUF" customClass="SpeechViewController" customModule="QueDijo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="W2C-VA-hT4">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="q6p-As-AaE"/>
@@ -204,28 +197,65 @@
                     <view key="view" contentMode="scaleToFill" id="XGe-H4-1XB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cookout" translatesAutoresizingMaskIntoConstraints="NO" id="7fo-22-LT8">
+                                <rect key="frame" x="0.0" y="44" width="375" height="500.5"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pup-SG-Ptb">
+                                <rect key="frame" x="0.0" y="544.5" width="187.5" height="122.5"/>
+                                <state key="normal" title="Upload"/>
+                                <connections>
+                                    <action selector="selectImage:" destination="FlM-LU-ULY" eventType="touchUpInside" id="64g-eC-8n1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XJd-XT-SX7">
+                                <rect key="frame" x="187.5" y="544.5" width="187.5" height="122.5"/>
+                                <state key="normal" title="Translate"/>
+                                <connections>
+                                    <action selector="translateImage:" destination="FlM-LU-ULY" eventType="touchUpInside" id="pNP-k5-gn0"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="7fo-22-LT8" firstAttribute="trailing" secondItem="Tc6-vM-mDe" secondAttribute="trailing" id="2Xm-FR-uMZ"/>
+                            <constraint firstItem="XJd-XT-SX7" firstAttribute="leading" secondItem="Pup-SG-Ptb" secondAttribute="trailing" id="E5p-bO-qAz"/>
+                            <constraint firstItem="Pup-SG-Ptb" firstAttribute="leading" secondItem="Tc6-vM-mDe" secondAttribute="leading" id="M0k-jL-d3f"/>
+                            <constraint firstItem="Tc6-vM-mDe" firstAttribute="bottom" secondItem="XJd-XT-SX7" secondAttribute="bottom" id="Nyy-xu-K0U"/>
+                            <constraint firstItem="Pup-SG-Ptb" firstAttribute="top" secondItem="7fo-22-LT8" secondAttribute="bottom" id="Rth-mn-yMA"/>
+                            <constraint firstItem="Pup-SG-Ptb" firstAttribute="width" secondItem="XGe-H4-1XB" secondAttribute="width" multiplier="0.5" id="UkE-gQ-GTO"/>
+                            <constraint firstItem="7fo-22-LT8" firstAttribute="top" secondItem="Tc6-vM-mDe" secondAttribute="top" id="VOh-8k-QNB"/>
+                            <constraint firstItem="7fo-22-LT8" firstAttribute="height" secondItem="XGe-H4-1XB" secondAttribute="height" multiplier="0.75" id="WId-kM-rMz"/>
+                            <constraint firstItem="Tc6-vM-mDe" firstAttribute="bottom" secondItem="Pup-SG-Ptb" secondAttribute="bottom" id="c7C-sD-GxM"/>
+                            <constraint firstItem="XJd-XT-SX7" firstAttribute="top" secondItem="7fo-22-LT8" secondAttribute="bottom" id="drj-qM-0SN"/>
+                            <constraint firstItem="Tc6-vM-mDe" firstAttribute="trailing" secondItem="XJd-XT-SX7" secondAttribute="trailing" id="fO0-J9-3q9"/>
+                            <constraint firstItem="7fo-22-LT8" firstAttribute="leading" secondItem="Tc6-vM-mDe" secondAttribute="leading" id="rDL-E6-h95"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Tc6-vM-mDe"/>
                     </view>
                     <navigationItem key="navigationItem" id="UaH-8B-PRT">
                         <barButtonItem key="leftBarButtonItem" title="Home" image="home-icon" id="gXr-RX-0cZ">
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
-                                <action selector="home:" destination="FlM-LU-ULY" id="8DL-tU-On4"/>
+                                <action selector="backHome:" destination="FlM-LU-ULY" id="qGi-c0-Usa"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="myImage" destination="7fo-22-LT8" id="Llc-e9-xh0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wn1-m0-DMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2929" y="311"/>
+            <point key="canvasLocation" x="2928.8000000000002" y="310.79460269865069"/>
         </scene>
         <!--Real Time View Controller-->
         <scene sceneID="V03-dD-tJv">
             <objects>
                 <viewController id="8Bg-7e-Jyh" customClass="RealTimeViewController" customModule="QueDijo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WyK-jd-wtN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="mTn-Sp-aVK"/>
@@ -248,7 +278,7 @@
             <objects>
                 <navigationController id="NP1-ya-8LS" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Jjp-nx-p0I">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.48332253886010368" green="0.0" blue="0.044886146494041039" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <textAttributes key="titleTextAttributes">
@@ -269,7 +299,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="l89-UH-j5X" userLabel="Speech Navigation Controller" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9qD-Em-zJV">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.48332253889999999" green="0.0" blue="0.044886146490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </navigationBar>
@@ -287,8 +317,9 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PVS-4T-jo9" userLabel="Picture Navigation Controller" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="nxj-sK-t8w"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5oB-5O-DkW">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.48332253889999999" green="0.0" blue="0.044886146490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </navigationBar>
@@ -307,7 +338,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JCp-oy-uLu" userLabel="RealTime Navigation Controller" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mRy-gW-vvy">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.48332253889999999" green="0.0" blue="0.044886146490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </navigationBar>
@@ -323,6 +354,7 @@
     </scenes>
     <resources>
         <image name="camera-icon" width="57" height="57"/>
+        <image name="cookout" width="274" height="184"/>
         <image name="home-icon" width="57" height="57"/>
         <image name="signin-icon" width="57" height="57"/>
         <image name="singup-icon" width="57" height="57"/>
