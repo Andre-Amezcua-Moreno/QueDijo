@@ -178,24 +178,18 @@ DEPENDENCIES:
   - Firebase/Storage
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - Firebase
-    - FirebaseAnalytics
-    - FirebaseCore
-    - FirebaseCoreDiagnostics
-    - FirebaseCoreDiagnosticsInterop
-    - FirebaseInstanceID
-    - GoogleAppMeasurement
-    - GoogleDataTransport
-    - GoogleDataTransportCCTSupport
-    - GoogleUtilities
-    - nanopb
-  trunk:
     - FirebaseABTesting
+    - FirebaseAnalytics
     - FirebaseAnalyticsInterop
     - FirebaseAuth
     - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCoreDiagnosticsInterop
     - FirebaseDatabase
+    - FirebaseInstanceID
     - FirebaseMLCommon
     - FirebaseMLNaturalLanguage
     - FirebaseMLNLTranslate
@@ -204,9 +198,14 @@ SPEC REPOS:
     - FirebaseRemoteConfig
     - FirebaseStorage
     - GoogleAPIClientForREST
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleDataTransportCCTSupport
     - GoogleToolboxForMac
+    - GoogleUtilities
     - GTMSessionFetcher
     - leveldb-library
+    - nanopb
     - Protobuf
 
 SPEC CHECKSUMS:
@@ -241,4 +240,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 0d691448200b1db6bb1f3271c7fa793eb0a1fc5e
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.7.5
