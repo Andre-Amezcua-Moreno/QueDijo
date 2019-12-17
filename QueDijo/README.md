@@ -13,11 +13,11 @@ Que Dijo is a translating application that allows Spanish speaking users to tran
 ### Create a List of Features
 > The first version of your mobile app needs to offer a simple and intuitive user experience. Choosing features for your mobile app is a planning process that requires you to define the product vision, objectives, and themes fully. Some standard features can include:
 > * Sign-up and login
-> * Onboarding
-> * Splash screen
+> * Home Page
+> * Image Translator
 > * Navigation
-> * Image galleries
-> * Forms
+> * Speech Translator(add-on)
+> * Real Time Translator(in progress)
 > * Social media integration
 >
 
