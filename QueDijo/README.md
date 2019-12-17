@@ -30,10 +30,13 @@ Que Dijo is a translating application that allows Spanish speaking users to tran
 > 
 > Determine the following within the product/technical specifications for your mobile app requirements document:
 > * What operating system versions should support it?
-> * What are your current services, servers, databases?
-> * Do you have current API/services documentation?
+    10 or above
+> * What are your current services, servers, databases,frameworks?
+    This app uses firebase and UIKit.
 > * Do you have current Apple, Google, or other developer accounts/credentials?
+    Apple Developer Acccount - To be able to run this app on a phone we needed to get and Apple developer account.
 > * Are there other credentials that are needed or already exist (analytics systems, or platforms)?
+    No.
 
 ### Dependencies
 > Dependencies are any aspect that the product or product team relies on to meet objectives.
