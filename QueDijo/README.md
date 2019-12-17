@@ -18,7 +18,6 @@ Que Dijo is a translating application that allows Spanish speaking users to tran
 > * Navigation
 > * Speech Translator(add-on)
 > * Real Time Translator(in progress)
-> * Social media integration
 >
 
 ### What is Your Monetization Model?
@@ -58,4 +57,4 @@ Que Dijo is a translating application that allows Spanish speaking users to tran
 > * Dec 2 - Testing last minute bug fix
 
 ### Wireframes 
-
+<img src='https://ibb.co/yQ1Qx2d' title='Video Walkthrough' width='' alt='Video Walkthrough' />
