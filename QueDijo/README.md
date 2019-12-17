@@ -57,4 +57,4 @@ Que Dijo is a translating application that allows Spanish speaking users to tran
 > * Dec 2 - Testing last minute bug fix
 
 ### Wireframes 
-<img src="https://github.com/KrisKasprzak/ILI9341_t3_controls">
+<img src="https://github.com/Andre-Amezcua-Moreno/QueDijo/blob/master/QueDijo/Screen%20Shot%202019-12-16%20at%206.56.01%20PM.png">
