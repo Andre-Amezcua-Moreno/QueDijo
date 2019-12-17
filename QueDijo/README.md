@@ -57,4 +57,5 @@ Que Dijo is a translating application that allows Spanish speaking users to tran
 > * Dec 2 - Testing last minute bug fix
 
 ### Wireframes 
-<img src='https://ibb.co/yQ1Qx2d' />
+
+![Image description](https://ibb.co/yQ1Qx2d)
